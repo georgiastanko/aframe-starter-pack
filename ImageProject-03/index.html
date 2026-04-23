@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Desert Disco</title>
-  </head>
-  <body>
-    <a-scene>
-      <a-sky src="../ImageProject-03/DesertSky.png"></a-sky>
-      <a-plane src="../ImageProject-03/desert floor.jpg" rotation="-90 0 0" width="50" height="50" color="#c2b280"></a-plane>
-      <a-box 
-        src="../ImageProject-03/boombox.jpg" color="grey" position="3 1 -4" scale="1.2 1.2 1.2"
-      ></a-box>
-      <a-sphere src="../ImageProject-03/DiscoTexture.jpg" position="0 8 -1" radius="1" color="grey"
-        animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-      </a-sphere>
-
-      <a-plane
-        src="../ImageProject-03/dancefloor.jpg" position="0 0.1 -5" rotation="-90 0 0" width="9" height="9" color="blue"
-      ></a-plane>
-
-
-    </a-scene>
-  </body>
+ <html>
+   <head> 
+    <title>Desert Disco</title> 
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  </head> 
+  
+  <body> 
+    <a-scene> 
+      <a-sky src="DesertSky.png"></a-sky> 
+      <a-plane src="desert floor.jpg" rotation="-90 0 0" width="50" height="50" color="#c2b280"></a-plane> 
+      <a-box src="boombox.jpg" color="grey" position="3 1 -4" scale="1.2 1.2 1.2" ></a-box> 
+      <a-sphere src="DiscoTexture.jpg" position="0 4 -5" radius="1" color="#grey" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"> </a-sphere> 
+      <a-plane src="dancefloor.jpg" position ="0 0.1 -5" rotation="-90 0 0" width="9" height="9" color="#blue" ></a-plane> 
+    </a-scene> 
+  </body> 
 </html>
